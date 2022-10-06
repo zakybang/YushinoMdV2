@@ -714,9 +714,9 @@ export async function participantsUpdate({ id, participants, action }) {
     sourceUrl: sgc
      }}
   })*/
-  let welcom = 'https://telegra.ph/file/35f17bb371d308504bc46.jpg'
+  let welcom = 'https://telegra.ph/file/70b41fa6f2feee6b92ac0.jpg'
 
-  let godbye = 'https://telegra.ph/file/b44e48066aed4fb7ad291.jpg'
+  let godbye = 'https://telegra.ph/file/87e5b3c1a8cc38d347917.jpg'
   conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com',
     mediaType: 2, 
