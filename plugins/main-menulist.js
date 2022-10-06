@@ -511,13 +511,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: sgc,
+ mediaUrl: sig,
     mediaType: 2, 
-    description: sgc,
+    description: sig,
     title: "Kᴛɪᴋ .sᴏᴜɴᴅᴍᴇɴᴜ ᴜɴᴛᴋ ʏɢ ʟᴀɪɴ",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
-    sourceUrl: sgc
+    thumbnail: await (await fetch('https://telegra.ph/file/d78659a58c520cdfd947a.png')).buffer(),
+    sourceUrl: sig
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
